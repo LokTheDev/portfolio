@@ -1,0 +1,22 @@
+.AboutCard{
+    width: 414px;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    background-color: rgba(255, 238, 238, 1);
+    border-radius: 5%;
+}
+
+.MyPicIRL{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top:-10vh;
+    left: 30%;
+    transition: 5000ms;
+}
+
+.MyPicIRL:hover{
+    transform: rotate(360deg) ;
+    transition: 5000ms;
+}

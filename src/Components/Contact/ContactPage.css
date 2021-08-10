@@ -1,0 +1,23 @@
+.ContactPage{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    word-wrap: break-word;
+}
+
+.Card_Cover{
+    width: 322px;
+    min-height: 773px;
+    margin-top: 150px;
+}
+
+
+.ContactPage_Text{
+    text-align: center;
+}
+
+.FormContainer{
+    margin-top:79px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.IconDivPage1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 137px;
+  position: relative;
+  left: 38vw;
+}
+
+@media only screen and (max-width : 500px) {
+  .IconDivPage1{
+     left: -25px;
+     display: block;
+  }
+  }

@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+}
+
+input{
+    display: block;
+    background-color:rgba(255, 238, 238, 1) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 258px;
+    height: 51px;
+    border-radius: 2%;
+    border: none;
+}
+
+input:focus{
+    background-color:rgb(189, 121, 121) ;
+    color: black;
+    transition: 1000ms;
+}
+
+
+
+textarea{
+    display: block;
+    background-color:rgba(255, 238, 238, 1) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 258px;
+    height: 199px;
+}
+
+.FormIconSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.formBtn{
+    position: relative;
+    left: 25%;
+    width: 130px;
+    height: 51px;
+    background-color:rgba(255, 238, 238, 1) ;
+}
+
+.formIcon{
+    width: 64px;
+    height: 64px;
+}
+
+.formIcon:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

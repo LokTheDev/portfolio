@@ -1,0 +1,25 @@
+.navContainer{
+    background-color: rgba(237, 218, 218, 1);
+    height: 100vh;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-right: 0.1px solid rgb(0,0,0, 10%);
+}
+
+.navBtn{
+    margin: auto;
+}
+
+.navBtn button{
+    background-color: transparent;
+    border: none;
+    margin: 1.5vh;
+    cursor: pointer;
+}
+
+.navBtn button:hover{
+    transform: scale(1.25) rotate(5deg);
+    transition: 500ms;
+}

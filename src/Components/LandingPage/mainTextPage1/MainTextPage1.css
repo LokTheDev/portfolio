@@ -1,0 +1,65 @@
+*{
+    font-family: 'Saira', sans-serif;
+}
+
+.MainTextPage1{
+    position: relative;
+    left: 120px;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+.Page1Title{
+    font-size: 20px;
+    text-align: left;
+}
+
+.Page1SubTitle{
+    font-size: 13px;
+    text-align: right;
+}
+
+.Page1Para{
+    font-size: 6.5px;
+    text-align: right;
+}
+
+@media only screen and (max-width : 380px) {
+    .MainTextPage1{
+        left: -25px;
+    }
+
+    .Page1Title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Page1SubTitle{
+        text-align: center;
+    }
+    
+    .Page1Para{
+        text-align: center;
+    }
+    
+    }
+
+    @media only screen and (max-width : 500px) {
+        .MainTextPage1{
+            left: -25px;
+        }
+    
+        .Page1Title {
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .Page1SubTitle{
+            text-align: center;
+        }
+        
+        .Page1Para{
+            text-align: center;
+        }
+        
+        }
