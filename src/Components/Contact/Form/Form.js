@@ -74,7 +74,7 @@ function ContactForm(props) {
         </button>
       </form>
       <div className="FormIconSection">
-        <a target="_blank" href="https://www.linkedin.com/in/l-l-8a17b1208/">
+        <a target="_blank" href="https://www.linkedin.com/in/lok-lo-8a17b1208/">
           {" "}
           <img className="formIcon" src={LinkIcon} alt="GitHub" />{" "}
         </a>
